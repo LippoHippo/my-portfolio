@@ -113,8 +113,11 @@ header nav ul li a:hover {
     background-position: center;
     min-height: 350px;
 }
+.hero img {
+    border-radius: 50%;
+}
 .hero h1 {
-    margin-top: 8%;
+    margin-top: 5%;
 }
 /* Hero Section End */
 
