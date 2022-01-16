@@ -1,7 +1,6 @@
 :root {
     --primary-color: rgb(211,4,49);
     --shadow-text: -5px 4px 7px rgba(0, 0, 0, .5);
-    --background-color: #87ceeb;
     --section-font-size: 35px;
 }
 
@@ -123,8 +122,11 @@ header nav ul li a:hover {
 
 /* About Me/My Work Section */
     /* About Me Section */
-.background-color {
-    background-color: var(--background-color)
+.background-img {
+    background-image: url("../images/hero-banner.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
 }
 .my-bio {
     font-size: var(--section-font-size);
